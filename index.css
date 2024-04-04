@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+}
+
+.cntd {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0 0 10px 0;
+    padding-left: 200px;
+    background-color: rgb(255, 178, 36);
+}
+
+.createnew {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+  .columns {
+    display: flex;
+}
+
+  .column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #7b7b7b;
+    margin: 0 2px;
+    height: 590px;
+    margin: auto;
+
+  }
+
+
+.addbtn {
+  width: 85px;
+  height: 40px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: darkorange;
+}
+
+.task {
+  position: relative;
+  padding: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  background-color: #ffbf00;
+  height: 90px;
+  font-size: 40px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.task input[type="text"] {
+  width: 80%;
+}
+
+.task button {
+  margin: 5px;
+  background-color: darkorange;
+  width: 40px;
+  height: 30px;
+}
+
+.task button.nextButton {
+    position: absolute;
+    bottom: 5px;
+    left: 26px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    width: 420px;
+  }
+
+  .task button.deleteButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    width: 30px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
